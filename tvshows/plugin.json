@@ -1,0 +1,8 @@
+{
+  "packageName": "com.jitendra.legal.tvshows",
+  "name": "Jitendra Legal TV Shows",
+  "version": "1.0.0",
+  "author": "Jitendra",
+  "description": "Legal and public-domain TV shows.",
+  "baseUrl": "https://archive.org"
+}
