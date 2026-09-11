@@ -1,0 +1,8 @@
+{
+  "packageName": "com.jitendra.legal.anime",
+  "name": "Jitendra Legal Anime",
+  "version": "1.0.0",
+  "author": "Jitendra",
+  "description": "Legal and public-domain animation sources.",
+  "baseUrl": "https://archive.org"
+}
