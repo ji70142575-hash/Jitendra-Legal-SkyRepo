@@ -1,0 +1,8 @@
+{
+  "packageName": "com.jitendra.legal.movies",
+  "name": "Jitendra Legal Movies",
+  "version": "1.0.0",
+  "author": "Jitendra",
+  "description": "Legal and public-domain movies.",
+  "baseUrl": "https://archive.org"
+}
