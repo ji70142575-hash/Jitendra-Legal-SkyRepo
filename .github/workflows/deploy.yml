@@ -27,7 +27,7 @@ jobs:
 
       - name: Deploy plugins
         run: |
-          skystream deploy -u https://raw.githubusercontent.com/ji70142575-hash/Jitendra-Legal-SkyRepo/main/repo.json
+          
 
       - name: Commit generated files
         run: |
