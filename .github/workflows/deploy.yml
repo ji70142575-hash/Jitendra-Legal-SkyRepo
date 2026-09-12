@@ -1,0 +1,38 @@
+name: Deploy SkyStream Plugins
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install SkyStream CLI
+        run: npm install -g skystream-cli
+
+      - name: Deploy plugins
+        run: |
+          skystream deploy -u https://raw.githubusercontent.com/ji70142575-hash/Jitendra-Legal-SkyRepo/main/repo.json
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "Build SkyStream plugins"
+          git push
