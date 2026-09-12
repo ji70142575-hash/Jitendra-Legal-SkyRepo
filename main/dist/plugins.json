@@ -3,6 +3,6 @@
   "description": "Legal and public-domain Movies, TV Shows and Anime.",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/ji70142575-hash/Jitendra-Legal-SkyRepo/main/plugins.json"
+    "https://raw.githubusercontent.com/ji70142575-hash/Jitendra-Legal-SkyRepo/main/dist/plugins.json"
   ]
 }
