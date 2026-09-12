@@ -1,14 +1,8 @@
 {
   "name": "Jitendra Legal SkyRepo",
-  "id": "jitendra-legal",
-  "version": "1.0.0",
-  "description": "Legal and public-domain sources for Movies, TV Shows and Anime.",
-  "author": "Jitendra",
-  "license": "MIT",
-  "categories": [
-    "Movies",
-    "TV Shows",
-    "Anime"
-  ],
-  "plugins": []
+  "description": "Legal and public-domain Movies, TV Shows and Anime.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/YOUR_USERNAME/Jitendra-Legal-SkyRepo/main/plugins.json"
+  ]
 }
