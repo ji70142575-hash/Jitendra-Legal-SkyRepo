@@ -25,10 +25,9 @@ jobs:
       - name: Install SkyStream CLI
         run: npm install -g skystream-cli
 
-        name: Deploy plugins run: |
-        
+      - name: Deploy plugins
+        run: |
           skystream deploy -u https://ji70142575-hash.github.io/Jitendra-Legal-SkyRepo/
-          
 
       - name: Commit generated files
         run: |
