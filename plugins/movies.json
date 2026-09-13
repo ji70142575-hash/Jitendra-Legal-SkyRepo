@@ -1,8 +1,14 @@
 {
-  "packageName": "com.jitendra.legal.movies",
-  "name": "Jitendra Legal Movies",
-  "version": "1.0.0",
+  "packageName": "com.jitendra.legalskyrepo.movies",
+  "name": "Legal Public Domain Movies",
+  "version": 1,
   "author": "Jitendra",
-  "description": "Legal and public-domain movies.",
-  "baseUrl": "https://archive.org"
+  "description": "Legal and public-domain movies from Internet Archive",
+  "baseUrl": "https://archive.org",
+  "domains": [
+    "archive.org"
+  ],
+  "providers": [
+    "Internet Archive"
+  ]
 }
